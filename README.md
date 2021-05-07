@@ -3,6 +3,12 @@
 
 Code a “typeahead” widget (also sometimes called an “autocomplete” input.)
 
+### 🛠 To install dependencies run
+
+```
+npm install
+```
+
 ### 🏗 To run app in the development mode
 
 ```
@@ -21,4 +27,4 @@ npm test
 
 ### Comments on the implementation
 
-- No External UI library has been leveraged instead CSS Modules mixed with global CSS variables did the job.
+No External UI library has been leveraged instead CSS Modules mixed with global CSS variables did the job.
