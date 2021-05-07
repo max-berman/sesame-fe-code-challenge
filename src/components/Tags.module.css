@@ -1,0 +1,37 @@
+.tags {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: calc(var(--spacer) / 2) 0;
+	flex-wrap: wrap;
+}
+.tags li {
+	font-size: var(--font-size-small);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: baseline;
+	background-color: var(--brand-blue);
+	margin-right: calc(var(--spacer) / 4);
+	margin-bottom: calc(var(--spacer) / 4);
+	padding-left: calc(var(--spacer) / 8);
+	color: var(--brand-grey-dark);
+	border-radius: var(--border-radius);
+	text-transform: uppercase;
+	position: relative;
+	color: var(--brand-white);
+}
+.tags li button {
+	border: none;
+	font-size: var(--font-size-large);
+	background: none;
+	padding: 0;
+	margin: 0 calc(var(--spacer) / 8);
+	display: block;
+	cursor: pointer;
+	outline: none;
+	color: inherit;
+}
+.tags li button:hover {
+	color: var(--brand-grey);
+}
