@@ -6,11 +6,13 @@
 	border: 1px solid var(--brand-grey-light);
 	box-shadow: none;
 	width: 100%;
-	background: var(--brand-white);
+	/* background: var(--brand-white); */
+	background-color: transparent;
 	padding: calc(var(--spacer) / 2);
 	margin: 0;
 	border-radius: var(--border-radius);
 	transition: 0.2s ease-out;
 	min-height: 43px;
 	appearance: none;
+	position: relative;
 }
