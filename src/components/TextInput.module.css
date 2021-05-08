@@ -13,4 +13,5 @@
 	transition: 0.2s ease-out;
 	min-height: 43px;
 	appearance: none;
+	position: relative;
 }

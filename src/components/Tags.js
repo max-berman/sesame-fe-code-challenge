@@ -7,7 +7,6 @@ export default function Tags({ tags, setTags }) {
 		const filteredTags = tags.filter(
 			(currentTag) => currentTag.toLowerCase() !== tag.toLowerCase()
 		)
-
 		setTags(filteredTags)
 	}
 	return (
