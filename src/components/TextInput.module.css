@@ -6,8 +6,7 @@
 	border: 1px solid var(--brand-grey-light);
 	box-shadow: none;
 	width: 100%;
-	/* background: var(--brand-white); */
-	background-color: transparent;
+	background: var(--brand-white);
 	padding: calc(var(--spacer) / 2);
 	margin: 0;
 	border-radius: var(--border-radius);
