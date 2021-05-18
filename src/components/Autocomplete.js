@@ -5,7 +5,7 @@ import SuggestionList from '../components/SuggestionList'
 import TextInput from '../components/TextInput'
 import TERMS from '../content/terms-data'
 
-const SEARCHVALUELENGTH = 2
+const SEARCH_VALUE_LENGTH = 2
 
 function Autocomplete() {
 	const node = useRef()
@@ -15,7 +15,7 @@ function Autocomplete() {
 	const [tags, setTags] = useState([])
 
 	const toShowSuggestionList =
-		filteredOptions?.length > 0 && searchValue?.length >= SEARCHVALUELENGTH
+		filteredOptions?.length > 0 && searchValue?.length >= SEARCH_VALUE_LENGTH
 
 	useEffect(() => {
 		if (searchValue && typeof window !== `undefined`) {

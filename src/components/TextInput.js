@@ -42,7 +42,7 @@ export default function TextInput({
 		if (!keys[keyCode] || !toShowSuggestionList) {
 			return
 		}
-		const filteredTerm = filteredOptions[activeTerm].trim()
+		const filteredTerm = filteredOptions[activeTerm]?.trim()
 		keys[keyCode]()
 	}
 	return (
