@@ -1,9 +1,12 @@
 ## Solution to Sesame FE Code Challenge
 
+[Task](./Sesame-FE-Challenge.pdf)
 
 Code a “typeahead” widget (also sometimes called an “autocomplete” input.)
 
 ### 🛠 To install dependencies run
+
+Node Version: 14.18.1
 
 ```
 npm install
